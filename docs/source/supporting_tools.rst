@@ -17,6 +17,7 @@ gene fusion messages for use in downstream applications. The package is publicly
 (PyPI).
 
 - `PyPI package <https://pypi.org/project/fusor>`_
+- `Documentation <https://fusor.readthedocs.io/stable/>`_
 - `Source code <https://github.com/cancervariants/fusor>`_
 
 .. _fusion-curation-tool:
@@ -24,8 +25,11 @@ gene fusion messages for use in downstream applications. The package is publicly
 Fusion-Builder
 @@@@@@@@@@@@@@
 
-The **Fusion-Builder** platform provides a user interface to curate valid gene fusion objects. This tool demonstrates
-the computable structure and associated nomenclature for gene fusions.
+The **Fusion-Builder** platform provides a web-based interface for curating valid gene fusion objects. It enables interactive
+construction of fusion components along with their associated metadata, while offering diagnostics to identify incomplete or
+invalid data. Once validated, the tool generates a compliant JSON representation and corresponding nomenclature.
+**Fusion-Builder** can be used to illustrate the requirements of the Gene Fusion Specification, all without the need to install
+any local software.
 
 - `Webtool <https://fusion-builder.cancervariants.org>`_
 - `Source code <https://github.com/cancervariants/fusion-builder/>`_
