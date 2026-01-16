@@ -7,26 +7,29 @@ Supporting Tools
    due to its use of inter-residue coordinates and extensible design. Other implementations may choose
    different conventions for representation of gene fusion data in system exchange.
 
-.. _Variation Representation Specification (VRS): https://vrs.ga4gh.org/en/1.2.1
+.. _Variation Representation Specification (VRS): https://vrs.ga4gh.org/en/2.0
 
 FUSOR
 @@@@@
 
-The FUSOR data validation / translation Python package provides data classes and constructor tools to create valid
+The **FUSOR** data validation / translation Python package provides data classes and constructor tools to create valid
 gene fusion messages for use in downstream applications. The package is publicly available on the Python Package Index
 (PyPI).
 
 - `PyPI package <https://pypi.org/project/fusor>`_
+- `Documentation <https://fusor.readthedocs.io/stable/>`_
 - `Source code <https://github.com/cancervariants/fusor>`_
 
 .. _fusion-curation-tool:
 
-Gene Fusion Curation Tool
-@@@@@@@@@@@@@@@@@@@@@@@@@
+Fusion-Builder
+@@@@@@@@@@@@@@
 
-Gene fusion curation educational web tool provides a user interface supporting gene fusion curation. This web tool
-is primarily an educational resource to demonstrate the computable structure and associated nomenclature for gene
-fusions constructed in the application.
+The **Fusion-Builder** platform provides a web-based interface for curating valid gene fusion objects. It enables interactive
+construction of fusion components along with their associated metadata, while offering diagnostics to identify incomplete or
+invalid data. Once validated, the tool generates a compliant JSON representation and corresponding nomenclature.
+**Fusion-Builder** can be used to illustrate the requirements of the Gene Fusion Specification, all without the need to install
+any local software.
 
-- `Webtool <https://go.osu.edu/fusion-curation-tool>`_
-- `Source code <https://github.com/cancervariants/fusion-curation/>`_
+- `Webtool <https://fusion-builder.cancervariants.org>`_
+- `Source code <https://github.com/cancervariants/fusion-builder/>`_
